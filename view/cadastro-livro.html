@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro - livro</title>
+
+    <link rel="stylesheet" href="../node_modules/w3-css/3/w3.css">
+    <script src="https://kit.fontawesome.com/568a96625b.js" crossorigin="anonymous"></script>
+    <script src="../js/escript.js"></script>
+
+</head>
+
+<body>
+    <h1 class="text-center">Cadastro de Livro:</h1>
+    <p>Preencha os dados por favor:</p>
+    <form action="" method="POST">
+        <label for="fornecedor"> Fornecedor:</label>
+        <select name="fornecedor" id="fornecedor" class="w3-select" required>
+            <option value="">Selecione</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+
+
+        <label for="nome">Titulo:</label>
+        <input type="text" name="nome" id="nome" placeholder="Digite o titulo do livro" class="w3-input" required />
+
+        <label for="ano"> Ano de publicação:</label>
+        <select name="ano" id="ano" class="w3-select" required>
+            <option value="">Selecione</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+
+        <label for="edicao">Edição:</label>
+        <input type="number" name="edicao" id="edicao" min="1" placeholder="Digite a edição do livro" class="w3-input"
+            required />
+
+        <label for="cep">Cep:</label>
+        <input type="text" name="cep" id="cep" placeholder="Digite o cep da empresa" class="w3-input" required />
+
+        <label for="editora"> Editora:</label>
+        <select name="editora" id="editora" class="w3-select" required>
+            <option value="">Selecione</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+
+        
+
+        <input type="submit" value="Cadastrar" class="w3-btn w3-green" />
+    </form>
+
+</body>
+
+</html>
